@@ -473,6 +473,10 @@ module Grit
       end
     end
 
+    def reset(mode = Reset::DEFAULT_MODE, ref = Reset::DEFAULT_REF)
+      Reset.reset(self, mode, ref)
+    end
+
     # Pretty object inspection
     def inspect
       %Q{#<Grit::Repo "#{@path}">}

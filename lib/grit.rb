@@ -50,6 +50,7 @@ require 'grit/status'
 require 'grit/submodule'
 require 'grit/blame'
 require 'grit/merge'
+require 'grit/reset'
 
 
 module Grit
