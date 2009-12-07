@@ -1,0 +1,1 @@
+An example git repository - used for testing
